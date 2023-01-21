@@ -1,0 +1,14 @@
+{
+  "extends": [
+    "airbnb-base",
+    "react-app",
+    "plugin:jsx-a11y/recommended",
+    "eslint-config-prettier",
+    "prettier"
+  ],
+  "plugins": ["jsx-a11y", "prettier"],
+  "rules": {
+    "no-console": "off",
+    "react/jsx-filename-extension": [1, {"extensions": [".js", ".jsx"]}]
+  }
+}
